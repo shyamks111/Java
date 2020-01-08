@@ -1,0 +1,13 @@
+This program which uses Spark to cluster given Twitter tweets by their geographic origins (coordinates), using
+the K-means clustering algorithm.
+
+The file twitter contains the tweets and their attributes. The first two values in each line are
+the world coordinates from which the respective tweet was posted. The other values are a time stamp, a user id, an
+optional flag 1=spam/0=no spam, and finally the actual tweet message.
+
+This program learns a K-means clustering with four clusters from this file. From each line in the file, only the
+coordinates are used as features for learning.
+
+Finally, the program prints every tweet (message) in the given file together with its respective cluster index (that
+is, the number of the cluster which contains that tweet’s coordinates, according to the learned model), sorted by the
+cluster indices. 
