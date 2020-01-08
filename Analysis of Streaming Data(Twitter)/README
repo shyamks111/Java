@@ -1,0 +1,6 @@
+This is a standalone	Spark	Streaming	program	that	connects	to	Twitter	and does the following	
+1) Prints	a	sample	of	the	tweets	it	receives	from	Twitter	every	second.	
+2) Counts	the	number	of	characters,	words and	extract	the	hashtags	in	each tweet.
+3) Calculates the	average	number	of characters and	words per	tweet
+4) Counts	the	top	10	hashtags
+5) Repeats the computations(3 and 4) for the	last	5 minutes	of tweets,	continuously every	30 seconds.
